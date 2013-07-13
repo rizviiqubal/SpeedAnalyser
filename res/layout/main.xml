@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#112445" >
+    <FrameLayout 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/frameLayout1" 
+    	android:background="@drawable/logo" 
+    	android:layout_width="wrap_content" 
+    	android:layout_marginTop="30dip" 
+    	android:layout_gravity="center">
+    </FrameLayout>
+    <RelativeLayout 
+    	android:id="@+id/relativeLayout1" 
+    	android:layout_width="match_parent" 
+    	android:background="@drawable/gradient_bg" 
+    	android:layout_height="fill_parent" 
+    	android:layout_marginTop="10dip">
+        	<RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:background="@drawable/box_bg" android:layout_height="fill_parent">
+        		<TextView android:layout_alignParentLeft="true" android:layout_width="fill_parent" android:layout_marginTop="50dip" android:text="Enter The URL Here" android:textStyle="bold" android:gravity="center" android:id="@+id/textView1" android:layout_height="wrap_content" android:textSize="17dip"></TextView>
+        		<EditText android:layout_marginRight="40dip" android:id="@+id/enter" android:layout_alignRight="@+id/textView1" android:layout_width="wrap_content" android:layout_below="@+id/textView1" android:text="http://" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1" android:layout_marginLeft="30dip"></EditText>
+        		<Button android:layout_width="60dip" android:id="@+id/go" android:layout_centerHorizontal="true" android:layout_below="@+id/enter" android:width="75dip" android:text="Go" android:layout_height="50dip"></Button>
+        	</RelativeLayout>
+    	
+    	
+    </RelativeLayout>
+    
+</LinearLayout>

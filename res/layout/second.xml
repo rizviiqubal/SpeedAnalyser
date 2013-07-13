@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#112445" >
+    <FrameLayout 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/frameLayoutS" 
+    	android:background="@drawable/logo" 
+    	android:layout_width="wrap_content" 
+    	android:layout_marginTop="30dip" 
+    	android:layout_gravity="center">
+    </FrameLayout>
+    <RelativeLayout 
+    	android:id="@+id/relativeLayoutS" 
+    	android:layout_width="match_parent" 
+    	android:background="@drawable/gradient_bg_color" 
+    	android:layout_height="fill_parent" 
+    	android:layout_marginTop="10dip">
+        	<RelativeLayout android:id="@+id/relativeLayoutS2" android:background="@drawable/box_bg" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_alignParentRight="false" android:layout_alignParentLeft="true">
+        		<TextView android:layout_alignParentLeft="true" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="greenlemon.in" android:layout_marginTop="20dip" android:layout_marginLeft="20dip" android:textStyle="bold" android:layout_above="@+id/webView1" android:layout_width="fill_parent"></TextView>
+        		<FrameLayout 
+    				android:id="@+id/frameLayoutS2" 
+    				android:layout_below="@+id/textView2" 
+    				android:layout_height="wrap_content" 
+    				android:layout_width="wrap_content" 
+    				android:layout_marginTop="50dip" 
+    				android:layout_marginLeft="178dip"
+    				android:layout_marginRight="25dip" 
+    				android:background="#6883ae">
+    			<WebView 
+    				android:id="@+id/webView1" 
+    				android:layout_height="fill_parent"
+    				android:background="#6883ae" android:layout_marginTop="10dip" android:layout_width="match_parent">
+    			</WebView>
+    					
+    			</FrameLayout>
+    			<FrameLayout 
+    				android:layout_height="wrap_content" 
+			    	android:id="@+id/frameLayoutS1" 
+			    	android:layout_marginTop="100dip" 
+			    	android:layout_gravity="center" 
+			    	android:layout_width="fill_parent">
+			    	<TextView 
+			    		android:layout_alignParentLeft="true" 
+			    		android:layout_width="fill_parent" 
+			    		android:id="@+id/rs" 
+			    		android:layout_height="wrap_content" 
+			    		android:text="Resource Size" 
+			    		android:textStyle="bold" 
+			    		android:layout_gravity="left" 
+			    		android:background="#FFFFFF" 
+			    		android:layout_marginLeft="1dip" 
+			    		android:paddingLeft="20dip" android:layout_marginTop="40dip" android:height="60dip">
+			    	</TextView>
+			    	
+    			</FrameLayout>
+    			<FrameLayout 
+    				android:id="@+id/frameLayoutS21" 
+    				android:layout_below="@+id/frameLayoutS1" 
+    				android:layout_height="wrap_content" 
+    				android:layout_width="wrap_content" 
+    				android:layout_marginTop="50dip" 
+    				 
+    				android:background="#6883ae">
+    			<WebView 
+    				android:id="@+id/webView2" 
+    				android:layout_width="fill_parent" 
+    				android:layout_height="fill_parent"
+    				android:background="#6883ae">
+    			</WebView>
+    					
+    			</FrameLayout>
+        		
+        	</RelativeLayout>
+    	
+    	
+    </RelativeLayout>
+    
+</LinearLayout>

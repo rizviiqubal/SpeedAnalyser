@@ -1,0 +1,1050 @@
+{
+ "kind": "pagespeedonline#result",
+ "id": "http://greenlemon.in/",
+ "responseCode": 200,
+ "title": "Greenlemon : Internet Marketing & Web Design Company Kerala, India",
+ "score": 62,
+ "pageStats": {
+  "numberResources": 33,
+  "numberHosts": 2,
+  "totalRequestBytes": "2213",
+  "numberStaticResources": 30,
+  "htmlResponseBytes": "13902",
+  "cssResponseBytes": "27114",
+  "imageResponseBytes": "150606",
+  "javascriptResponseBytes": "38409",
+  "otherResponseBytes": "397",
+  "numberJsResources": 3,
+  "numberCssResources": 5
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidBadRequests": {
+    "localizedRuleName": "Avoid bad requests",
+    "ruleScore": 84,
+    "ruleImpact": 1.5,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following requests are returning 404/410 responses.  Either fix the broken links, or remove the references to the non-existent resources."
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/hanging_bg.jpg"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "AvoidCssImport": {
+    "localizedRuleName": "Avoid CSS @import",
+    "ruleScore": 85,
+    "ruleImpact": 1,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following external stylesheets were included in $1 using @import.",
+       "args": [
+        {
+         "type": "URL",
+         "value": "http://greenlemon.in/css/greenlemon.css"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/base.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/global.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/reset.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/tooltip.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "DeferParsingJavaScript": {
+    "localizedRuleName": "Defer parsing of JavaScript",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "InlineSmallCss": {
+    "localizedRuleName": "Inline Small CSS",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "InlineSmallJavaScript": {
+    "localizedRuleName": "Inline Small JavaScript",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleScore": 0,
+    "ruleImpact": 22.392857142857142,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following cacheable resources have a short freshness lifetime. Specify an expiration at least one week in the future for the following resources:"
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/Scripts/AC_RunActiveContent.js"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/base.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/global.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/greenlemon.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/reset.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/tooltip.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/award.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/call_ico.jpg"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/content_bg.png"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/facebook_ico.jpg"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/google_award.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/green_bg.jpg"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/greenlemon_logo.jpg"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/logo_bg.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/oman_web_awards.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/readmore.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/readmore2.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/testimonail_f.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/testimonail_h.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/testimonail_m.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/theweb_exaward.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/twitter_ico.jpg"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/web_icon01.png"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/web_icon02.png"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/web_icon03.png"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio1.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio2.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio3.gif"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/js/form.js"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1 ($2)",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://www.google-analytics.com/ga.js"
+          },{
+           "type": "DURATION",
+           "value": "24 hours"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MakeLandingPageRedirectsCacheable": {
+    "localizedRuleName": "Make landing page redirects cacheable",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleScore": 16,
+    "ruleImpact": 0.6478,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Minifying the following CSS resources could reduce their size by $1 ($2% reduction).",
+       "args": [
+        {
+         "type": "BYTES",
+         "value": "6.2KiB"
+        },{
+         "type": "INT_LITERAL",
+         "value": "24"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/global.css"
+          },{
+           "type": "BYTES",
+           "value": "4.8KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "21"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/base.css"
+          },{
+           "type": "BYTES",
+           "value": "1KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "58"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/reset.css"
+          },{
+           "type": "BYTES",
+           "value": "337B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "31"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleScore": 66,
+    "ruleImpact": 0.3115,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Minifying the following HTML resources could reduce their size by $1 ($2% reduction).",
+       "args": [
+        {
+         "type": "BYTES",
+         "value": "3KiB"
+        },{
+         "type": "INT_LITERAL",
+         "value": "22"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/"
+          },{
+           "type": "BYTES",
+           "value": "3KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "22"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleScore": 67,
+    "ruleImpact": 0.3585,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Minifying the following JavaScript resources could reduce their size by $1 ($2% reduction).",
+       "args": [
+        {
+         "type": "BYTES",
+         "value": "3.5KiB"
+        },{
+         "type": "INT_LITERAL",
+         "value": "34"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/Scripts/AC_RunActiveContent.js"
+          },{
+           "type": "BYTES",
+           "value": "3KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "37"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Minifying $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/js/form.js"
+          },{
+           "type": "BYTES",
+           "value": "420B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "21"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRedirects": {
+    "localizedRuleName": "Minimize redirects",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "MinimizeRequestSize": {
+    "localizedRuleName": "Minimize request size",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleScore": 26,
+    "ruleImpact": 3.6951000000000005,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Optimizing the following images could reduce their size by $1 ($2% reduction).",
+       "args": [
+        {
+         "type": "BYTES",
+         "value": "35.7KiB"
+        },{
+         "type": "INT_LITERAL",
+         "value": "33"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/facebook_ico.jpg"
+          },{
+           "type": "BYTES",
+           "value": "7.4KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "72"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/twitter_ico.jpg"
+          },{
+           "type": "BYTES",
+           "value": "7.3KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "72"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/call_ico.jpg"
+          },{
+           "type": "BYTES",
+           "value": "7.2KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "74"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio3.gif"
+          },{
+           "type": "BYTES",
+           "value": "4.4KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "26"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio2.gif"
+          },{
+           "type": "BYTES",
+           "value": "3KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "22"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/webdesign_portfolio1.gif"
+          },{
+           "type": "BYTES",
+           "value": "2.6KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "17"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/google_award.gif"
+          },{
+           "type": "BYTES",
+           "value": "1.3KiB"
+          },{
+           "type": "INT_LITERAL",
+           "value": "15"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/award.gif"
+          },{
+           "type": "BYTES",
+           "value": "674B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "11"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/oman_web_awards.gif"
+          },{
+           "type": "BYTES",
+           "value": "654B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "12"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/theweb_exaward.gif"
+          },{
+           "type": "BYTES",
+           "value": "504B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "9"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/readmore.gif"
+          },{
+           "type": "BYTES",
+           "value": "350B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "15"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "Losslessly compressing $1 could save $2 ($3% reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/images/testimonail_h.gif"
+          },{
+           "type": "BYTES",
+           "value": "289B"
+          },{
+           "type": "INT_LITERAL",
+           "value": "9"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeTheOrderOfStylesAndScripts": {
+    "localizedRuleName": "Optimize the order of styles and scripts",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "PreferAsyncResources": {
+    "localizedRuleName": "Prefer asynchronous resources",
+    "ruleScore": 85,
+    "ruleImpact": 1,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following resources are loaded synchronously. Load them asynchronously to reduce blocking of page rendering."
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1 loads $2 synchronously.",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/"
+          },{
+           "type": "URL",
+           "value": "http://www.google-analytics.com/ga.js"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PutCssInTheDocumentHead": {
+    "localizedRuleName": "Put CSS in the document head",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "RemoveQueryStringsFromStaticResources": {
+    "localizedRuleName": "Remove query strings from static resources",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "ServeResourcesFromAConsistentUrl": {
+    "localizedRuleName": "Serve resources from a consistent URL",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "ServeScaledImages": {
+    "localizedRuleName": "Serve scaled images",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "SpecifyACacheValidator": {
+    "localizedRuleName": "Specify a cache validator",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "SpecifyAVaryAcceptEncodingHeader": {
+    "localizedRuleName": "Specify a Vary: Accept-Encoding header",
+    "ruleScore": 76,
+    "ruleImpact": 0,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following publicly cacheable, compressible resources should have a \"Vary: Accept-Encoding\" header:"
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/Scripts/AC_RunActiveContent.js"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/base.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/global.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/greenlemon.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/reset.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/css/tooltip.css"
+          }
+         ]
+        }
+       },{
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/js/form.js"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "SpecifyCharsetEarly": {
+    "localizedRuleName": "Specify a character set",
+    "ruleScore": 95,
+    "ruleImpact": 0.001,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "The following resources have no character set specified in their HTTP headers. Specifying a character set in HTTP headers can speed up browser rendering."
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "SpecifyImageDimensions": {
+    "localizedRuleName": "Specify image dimensions",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "SpriteImages": {
+    "localizedRuleName": "Combine images into CSS sprites",
+    "ruleScore": 100,
+    "ruleImpact": 0
+   },
+   "UseAnApplicationCache": {
+    "localizedRuleName": "Use an Application Cache",
+    "ruleScore": 84,
+    "ruleImpact": 1.5,
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Using an application cache allows a page to show up immediately. The following HTML documents can use an application cache to reduce the time it takes for users to be able to interact with the page:"
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "$1",
+         "args": [
+          {
+           "type": "URL",
+           "value": "http://greenlemon.in/"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 11
+ }
+}
